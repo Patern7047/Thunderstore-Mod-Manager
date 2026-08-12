@@ -1,0 +1,19 @@
+{
+  "endpoints": {
+    "communities": "/communities/",
+    "packages": "/c/{community}/api/v1/package/",
+    "packageDetail": "/c/{community}/api/v1/package/{namespace}/{name}/",
+    "packageVersions": "/c/{community}/api/v1/package/{namespace}/{name}/versions/",
+    "download": "/package/download/{namespace}/{name}/{version}/"
+  },
+  "rateLimit": {
+    "requestsPerMinute": 60,
+    "burst": 10
+  },
+  "cache": {
+    "packageListMinutes": 15,
+    "packageDetailMinutes": 60,
+    "iconsMinutes": 1440
+  },
+  "userAgent": "ThunderstoreModManager/3.2.18"
+}

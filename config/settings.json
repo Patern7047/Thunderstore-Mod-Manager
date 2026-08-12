@@ -1,0 +1,33 @@
+{
+  "app": {
+    "name": "Thunderstore Mod Manager",
+    "version": "3.2.18",
+    "apiBase": "https://thunderstore.io/api/experimental"
+  },
+  "games": {
+    "autoDetect": true,
+    "steamLibraries": [],
+    "customPaths": {}
+  },
+  "downloads": {
+    "directory": "downloads",
+    "maxConcurrent": 3,
+    "verifyHashes": true
+  },
+  "profiles": {
+    "directory": "profiles",
+    "autoSave": true,
+    "maxBackups": 5
+  },
+  "ui": {
+    "theme": "dark",
+    "sortBy": "lastUpdated",
+    "showDeprecated": false,
+    "pageSize": 50
+  },
+  "behavior": {
+    "launchAfterInstall": false,
+    "closeToTray": false,
+    "checkUpdatesOnStart": true
+  }
+}

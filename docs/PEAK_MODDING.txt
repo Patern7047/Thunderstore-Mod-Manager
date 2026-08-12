@@ -1,0 +1,38 @@
+# Thunderstore Mod Manager - PEAK Modding Guide
+
+## Overview
+PEAK is one of the fastest-growing games on Thunderstore. Modding interest has surged with searches for "peak thunderstore" up 120% and "peak mod" up 130%. This guide covers setting up PEAK mods with Thunderstore Mod Manager.
+
+## Getting Started
+1. Launch Thunderstore Mod Manager.
+2. Select PEAK from the game dropdown.
+3. Create a new profile or use the default.
+4. Browse the PEAK mod list.
+
+## Popular PEAK Mods
+
+### Peak Unlimited (300% search growth)
+Removes the default player limit, allowing unlimited climbers in a single session. Most downloaded PEAK mod.
+
+### Peak More Players Mod (180% growth)
+Expands lobby size beyond the default cap. Configurable max players in the mod settings.
+
+### Peak Multiplayer Mod
+Enhanced co-op features including improved synchronization, voice chat tweaks, and shared progress tracking.
+
+### How to Install
+1. Search "peak unlimited" or "peak more players" in the mod list.
+2. Click Install.
+3. Enable in your profile.
+4. Launch PEAK.
+
+### Configuration
+Most PEAK mods add a config file at:
+`BepInEx/config/<mod_name>.cfg`
+
+Edit values in a text editor. Changes take effect on next launch.
+
+## Troubleshooting
+- **Mods not loading:** Verify BepInEx is in the PEAK game directory. The manager installs it automatically on first profile use.
+- **Version mismatch:** PEAK updates frequently. Ensure your mods match the current game version.
+- **Multiplayer issues:** All players in a session need the same mods installed and enabled.

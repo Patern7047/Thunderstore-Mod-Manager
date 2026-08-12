@@ -1,0 +1,52 @@
+{
+  "games": [
+    {
+      "id": "peak",
+      "name": "PEAK",
+      "steamAppId": "3527290",
+      "executable": "PEAK.exe",
+      "modLoader": "BepInEx",
+      "bepinexVersion": "5.4.22"
+    },
+    {
+      "id": "lethal-company",
+      "name": "Lethal Company",
+      "steamAppId": "1966720",
+      "executable": "Lethal Company.exe",
+      "modLoader": "BepInEx",
+      "bepinexVersion": "5.4.22"
+    },
+    {
+      "id": "valheim",
+      "name": "Valheim",
+      "steamAppId": "892970",
+      "executable": "valheim.exe",
+      "modLoader": "BepInEx",
+      "bepinexVersion": "5.4.22"
+    },
+    {
+      "id": "bonelab",
+      "name": "BONELAB",
+      "steamAppId": "1592190",
+      "executable": "BONELAB.exe",
+      "modLoader": "MelonLoader",
+      "melonVersion": "0.6.1"
+    },
+    {
+      "id": "content-warning",
+      "name": "Content Warning",
+      "steamAppId": "2881650",
+      "executable": "Content Warning.exe",
+      "modLoader": "BepInEx",
+      "bepinexVersion": "5.4.22"
+    },
+    {
+      "id": "repo",
+      "name": "R.E.P.O.",
+      "steamAppId": "3241660",
+      "executable": "REPO.exe",
+      "modLoader": "BepInEx",
+      "bepinexVersion": "5.4.22"
+    }
+  ]
+}

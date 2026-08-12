@@ -1,0 +1,56 @@
+# Thunderstore Mod Manager - Installation Guide
+
+## System Requirements
+- Windows 10 / 11 (64-bit)
+- .NET 8.0 Runtime (included in self-contained build)
+- Steam (for auto-detection of supported games)
+
+## Quick Install
+1. Download ThunderstoreModManager.zip from the Releases page.
+2. Extract to any folder.
+3. Run ThunderstoreModManager.exe.
+4. The manager auto-detects supported games in your Steam library.
+5. Select a game and create a profile.
+6. Browse mods, click Install, and launch.
+
+## Manual Game Setup
+If auto-detection fails:
+1. Click "Add Game Manually."
+2. Browse to the game executable (e.g., PEAK.exe).
+3. The manager verifies the game and creates a profile.
+
+## First Launch
+1. Select your game from the dropdown.
+2. Create a new profile or use the default.
+3. Browse available mods in the list.
+4. Click Install on any mod.
+5. Click Launch Game to play with mods.
+
+## PEAK Modding
+PEAK modding is trending in the Thunderstore community. Popular PEAK mods include:
+- Peak Unlimited (300% growth) - removes player limit
+- Peak More Players Mod - expand lobby size
+- Peak Multiplayer Mod - enhanced co-op features
+
+To mod PEAK:
+1. Select PEAK from the game list.
+2. Create a profile.
+3. Search for "peak unlimited" or browse PEAK mods.
+4. Install and launch.
+
+## Lethal Company Modding
+Lethal Company remains one of the most modded games on Thunderstore:
+- Search for "lethal company" in the mod list.
+- Popular mods include more emotes, additional monsters, quality-of-life improvements.
+- The manager handles BepInEx installation automatically.
+
+## Valheim Modding
+Valheim has extensive Thunderstore support:
+- Valheim Plus for server customization
+- Equipment and Quick Slots for UI improvements
+- Plant Everything for farming expansion
+
+## Updating
+- The manager checks for updates on startup.
+- Mod updates are checked when you select a profile.
+- One-click update all outdated mods.

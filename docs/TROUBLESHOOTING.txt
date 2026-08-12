@@ -1,0 +1,41 @@
+# Thunderstore Mod Manager - Troubleshooting
+
+## Manager won't start
+1. Verify .NET 8.0 Runtime is installed (or use the self-contained build).
+2. Check Windows Event Viewer for crash details.
+3. Try running as Administrator.
+
+## Games not detected
+1. Verify the game is installed via Steam.
+2. Check Steam library folders in Steam > Settings > Storage.
+3. Use manual game addition to browse to the executable.
+4. Non-Steam games must be added manually.
+
+## BepInEx not installing
+1. Check antivirus - some flag BepInEx as suspicious.
+2. Add the game directory to antivirus exclusions.
+3. Manually download BepInEx from bepinex.github.io and extract to the game folder.
+4. Verify the BepInEx folder exists in the game directory.
+
+## Mods not appearing in list
+1. Check internet connection - mod list fetches from Thunderstore API.
+2. Press F5 to refresh.
+3. Clear the cache: Settings > Clear Cache.
+4. Thunderstore may be down - check thunderstore.io status.
+
+## Mods installed but not working in game
+1. Verify mods are enabled (toggle in profile).
+2. Check mod compatibility with current game version.
+3. Look at BepInEx console (enable in BepInEx config) for load errors.
+4. Some mods require additional dependencies - check the mod page.
+
+## Profile corruption
+1. Profiles are stored in the profiles/ directory as JSON.
+2. Restore from backup if available.
+3. Delete the corrupted profile and create a new one.
+4. Mods themselves are stored separately and won't be lost.
+
+## Download speed is slow
+1. Thunderstore CDN speed varies by region.
+2. Try again later or during off-peak hours.
+3. Check for proxy/VPN interference.

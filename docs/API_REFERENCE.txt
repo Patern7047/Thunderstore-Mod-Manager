@@ -1,0 +1,50 @@
+# Thunderstore Mod Manager - API Reference
+
+## Base URL
+`https://thunderstore.io/api/experimental`
+
+## Endpoints
+
+### List Communities
+```
+GET /communities/
+```
+Returns all game communities on Thunderstore.
+
+### List Packages for a Community
+```
+GET /c/{community}/api/v1/package/
+```
+Returns all packages (mods) for a specific game community.
+
+### Get Package Detail
+```
+GET /c/{community}/api/v1/package/{namespace}/{name}/
+```
+Returns detailed info about a specific mod.
+
+### List Package Versions
+```
+GET /c/{community}/api/v1/package/{namespace}/{name}/versions/
+```
+Returns all available versions of a mod.
+
+### Download Package
+```
+GET /package/download/{namespace}/{name}/{version}/
+```
+Downloads a specific mod version as a .zip file.
+
+## Rate Limits
+- 60 requests per minute per IP
+- Burst limit: 10 concurrent requests
+- 429 response on limit exceeded
+
+## Caching
+- Package list: 15 minutes
+- Package detail: 60 minutes
+- Icons/images: 24 hours
+
+## User Agent
+Include a descriptive User-Agent header:
+`ThunderstoreModManager/3.2.18 (Windows; x64)`

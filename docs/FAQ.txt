@@ -1,0 +1,47 @@
+# Thunderstore Mod Manager - Frequently Asked Questions
+
+## General
+
+### What is Thunderstore Mod Manager?
+Thunderstore Mod Manager (formerly r2modman) is a desktop application for browsing, installing, and managing mods for games supported by the Thunderstore mod repository. It handles mod downloads, BepInEx installation, profile management, and game launching.
+
+### Thunderstore vs r2modman?
+Thunderstore Mod Manager is the official successor to r2modman. Both are built by the Thunderstore team. The Mod Manager has a modern UI and better performance. r2modman is still maintained but the Mod Manager is recommended for new users.
+
+### Thunderstore without Overwolf?
+Yes. This standalone desktop client works without Overwolf. No Overwolf installation or account required.
+
+### Is it safe?
+Yes. Thunderstore Mod Manager is open source and the official tool for Thunderstore mods. All mod downloads are verified against Thunderstore hashes.
+
+## Games
+
+### Which games are supported?
+PEAK, Lethal Company, Valheim, BONELAB, Content Warning, R.E.P.O., Risk of Rain 2, GTFO, ROUNDS, Dyson Sphere Program, Subnautica, Titanfall 2, H3VR, Inscryption, ULTRAKILL, and more.
+
+### How do I mod PEAK?
+Select PEAK from the game list, create a profile, browse PEAK mods (like peak unlimited or peak more players mod), install, and launch. The manager handles BepInEx setup automatically.
+
+### How do I mod Lethal Company?
+Same process - select Lethal Company, create a profile, search for mods, install, launch. Lethal Company mods are among the most popular on Thunderstore.
+
+### Can I use Thunderstore mods with Gale?
+Gale is an alternative mod manager. Thunderstore Mod Manager and Gale both read from the same Thunderstore repository. Mods installed through one manager are visible to the other if they share the same profile directory.
+
+## Troubleshooting
+
+### Game not detected?
+1. Verify the game is installed via Steam.
+2. Check that the Steam library path is correct.
+3. Use "Add Game Manually" to browse to the executable.
+
+### Mods not loading in game?
+1. Verify BepInEx is installed (the manager does this automatically).
+2. Check that mods are enabled in your profile.
+3. Look at BepInEx console output for errors.
+4. Ensure mod versions match your game version.
+
+### Download fails?
+1. Check your internet connection.
+2. Thunderstore may be rate-limiting - wait a minute and retry.
+3. Verify disk space in the downloads directory.
